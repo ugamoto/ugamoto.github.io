@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UGA Motorcycle Club</title>
+    <link rel="icon" type="image/x-icon" href="images/club/UGALogo_Circle.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Roboto+Condensed&family=Space+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <script src="js/script.js"></script>
+    <header class="top">
+        <div class="site-container">
+            <div class="header-flex">
+                <h1 class="header-title"><a href="#">UGA Motorcycle Club</a></h1>
+                <div class="header-buttons">
+                    <a href="#gallery" class="header-button">View Gallery</a>
+                    <a href="#join" class="header-button">Join Now</a>
+                    <a class="menu-button" onclick=showSidebar()>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#FFFFFF">
+                            <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="sidebar">
+                <a class="close-button" onclick=hideSidebar()>
+                    <svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#000000">
+                        <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/>
+                    </svg>
+                </a>
+                <a href="#gallery" class="sidebar-button">View Gallery</a>
+                <a href="#join" class="sidebar-button">Join Now</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <div class="site-container">
+        <section class="about">
+            <div class="section-1">
+                <div class="flex-text-1">
+                    <h2 class="title-1">Who We Are</h2>
+                    <p class="description-1">
+                        The UGA Motorcycle Club is a community of passionate riders who share a love for the open road, adventure, and camaraderie. We organize regular rides, events, and gatherings, fostering a strong bond among our members.
+                    </p>
+                </div>
+                <div class="first-img-section">
+                    <img src="images/club/UGALogo_Square.png" alt="UGA Motorcycle Club Logo" class="club-logo-img">
+                </div>
+            </div>
+            <h3 class="title-2">Our Mission</h3>
+            <p class="description-2">
+                Our mission is to create a vibrant and inclusive community for motorcycle enthusiasts. We aim to promote safe riding practices, organize exciting group rides, and engage in charitable activities that give back to our community. Whether you're a seasoned rider or just starting, you'll find a welcoming home with us.
+            </p>
+            <ul class="list-of-things">
+                <li>Regular group rides and events</li>
+                <li>Community service and charity work</li>
+                <li>Skill-building workshops</li>
+                <li>Social gatherings and meetups</li>
+            </ul>
+        </section>
+    </div>
+
+    <!-- Image Gallery Section -->
+    <div class="site-container">
+        <section id="gallery" class="gallery-section">
+            <div class="center-text-2">
+                <h2 class="title-3">Our Adventures</h2>
+                <p class="description-3">
+                    A glimpse into our rides, events, and the brotherhood we share.
+                </p>
+            </div>
+            <div class="grid-img">
+                <!-- Image Placeholder 1 -->
+                <div class="image-placeholder">
+                    <img src="images/club/A9132179-E8BB-4B44-AD2C-E3290B9AA8A6.jpeg" alt="Tail of the Dragon" class="gallery-img">
+                </div>
+                <!-- Image Placeholder 2 -->
+                <div class="image-placeholder">
+                    <img src="images/club/IMG_0531.JPEG" alt="Motorcycle Event 2" class="gallery-img">
+                </div>
+                <!-- Image Placeholder 3 -->
+                <div class="image-placeholder">
+                    <img src="images/club/IMG_9888.JPG" alt="Motorcycle Group 3" class="gallery-img">
+                </div>
+                <!-- Image Placeholder 4 -->
+                <div class="image-placeholder">
+                    <img src="images/club/IMG_3300.HEIC" alt="Motorcycle Road 4" class="gallery-img">
+                </div>
+                <!-- Image Placeholder 5 -->
+                <div class="image-placeholder">
+                    <img src="images/club/4D248CD0-818A-4647-A1E8-8904B3856E3E.jpeg" alt="Motorcycle Clu Party" class="gallery-img">
+                </div>
+                <!-- Image Placeholder 6 -->
+                <div class="image-placeholder">
+                    <img src="images/club/54356443997_9b0dd8d229_o.JPG" alt="Motorcycle Scenic 6" class="gallery-img">
+                </div>
+                <!-- Image Placeholder 7 -->
+                <div class="image-placeholder">
+                    <img src="images/club/IMG_4342.HEIC" alt="Motorcycle Scenic 6" class="gallery-img">
+                </div>
+                <!-- Image Placeholder 8 -->
+                <div class="image-placeholder">
+                    <img src="images/club/IMG_4519.HEIC" alt="Motorcycle Scenic 6" class="gallery-img">
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Call to Action / Join Section -->
+    <section id="join" class="Join-Section">
+        <div class="site-container">
+            <h2 class="Title-4">Join the UGA Motorcycle Club!</h2>
+            <p class="description-4">
+                Ready to hit the road with us? Connect with our community and stay updated on all our rides and events.
+            </p>
+            <div class="links-section">
+                <a href="https://www.instagram.com/motorcycleclubofuga" target="_blank" rel="noopener noreferrer" class="instagram-btn">
+                    <button type="button">
+                        <!-- Instagram Icon -->
+                        <svg fill="#FFFFFF" width="50px" height="50px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20.445 5h-8.891A6.559 6.559 0 0 0 5 11.554v8.891A6.559 6.559 0 0 0 11.554 27h8.891a6.56 6.56 0 0 0 6.554-6.555v-8.891A6.557 6.557 0 0 0 20.445 5zm4.342 15.445a4.343 4.343 0 0 1-4.342 4.342h-8.891a4.341 4.341 0 0 1-4.341-4.342v-8.891a4.34 4.34 0 0 1 4.341-4.341h8.891a4.342 4.342 0 0 1 4.341 4.341l.001 8.891z"/>
+                            <path d="M16 10.312c-3.138 0-5.688 2.551-5.688 5.688s2.551 5.688 5.688 5.688 5.688-2.551 5.688-5.688-2.55-5.688-5.688-5.688zm0 9.163a3.475 3.475 0 1 1-.001-6.95 3.475 3.475 0 0 1 .001 6.95zM21.7 8.991a1.363 1.363 0 1 1-1.364 1.364c0-.752.51-1.364 1.364-1.364z"/>
+                        </svg>
+                        <div class="join-button-text">Follow us on Instagram </div>
+                    </button>
+                </a>
+                <a href="https://groupme.com/join_group/85757641/ky1zSb6n" target="_blank" rel="noopener noreferrer" class="groupme-btn">
+                    <button type="button">
+                        <!-- GroupMe Icon -->
+                        <svg width="50px" height="50px" viewBox="0 0 50.8 50.8" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M22.225 12.17v15.876" style="fill:none;stroke:#FFFFFF;stroke-width:3.175;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:6;stroke-dasharray:none;stroke-opacity:1"/>
+                            <path d="M28.575 12.17v15.876" style="fill:none;stroke:#FFFFFF;stroke-width:3.175;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:6;stroke-dasharray:none;stroke-opacity:1"/>
+                            <path d="M17.992 16.404h14.816m-14.816 6.35h14.816M12.7 29.104s11.642 14.817 25.4 0" style="fill:none;stroke:#FFFFFF;stroke-width:3.175;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:6;stroke-dasharray:none;stroke-opacity:1"/>
+                            <path d="M13.758 5.82h23.266c4.251 0 6.897 4.763 6.897 8.993v17.999c0 4.23-2.646 8.992-6.887 8.992h-8.459L25.4 44.98l-3.175-3.175h-8.463c-4.237 0-6.883-4.762-6.883-8.998v-17.99c0-4.233 2.646-8.995 6.88-8.995z" style="fill:none;stroke:#FFFFFF;stroke-width:3.175;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"/>
+                        </svg>
+                        <div class="join-button-text">Join our GroupMe</div>
+                    </button>
+                </a>
+                <a href="https://linktr.ee/motorcycleclubofuga" target="_blank" rel="noopener noreferrer" class="linktree-btn">
+                    <button type="button">
+                        <!-- Linktree Icon -->
+                        <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id="Linktree--Streamline-Simple-Icons" height="35" width="35">
+                            <path d="m13.73635 5.85251 4.00467 -4.11665 2.3248 2.3808 -4.20064 4.00466h5.9085v3.30473h-5.9365l4.22865 4.10766 -2.3248 2.3338L12.0005 12.099l-5.74052 5.76852 -2.3248 -2.3248 4.22864 -4.10766h-5.9375V8.12132h5.9085L3.93417 4.11666l2.3248 -2.3808 4.00468 4.11665V0h3.4727zm-3.4727 10.30614h3.4727V24h-3.4727z" fill="#000000" stroke-width="1"></path>
+                        </svg>
+                        <div class="join-button-text">All links (Linktree)</div>
+                    </button>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer-section">
+        <div class="site-container">
+            <div class="footer-container">
+                <p>&copy; 2025 UGA Motorcycle Club. All rights reserved.</p>
+                <p class="secondary-footer">Sidharth Chaudhary</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
